@@ -1,0 +1,47 @@
+<?php
+if(empty($_GET["page"]))
+{
+    require("controller/c_index.php");
+}
+else
+{
+    $page = $_GET["page"];
+    switch($page)
+    {   case "productDetail":
+            require("controller/c_productDetail.php");
+            break;
+        case"contact":
+            require("controller/c_contact.php");
+            break;
+        case"about":
+            require("controller/c_about.php");
+            break;
+        case"services":
+            require("controller/c_services.php");
+            break;
+        case"blog":
+            require("controller/c_blog.php");
+            break;   
+        case"buyhouse":
+            require("controller/c_blog_buyhouse.php");
+            break;
+        case"renthouse":
+            require("controller/c_blog_renthouse.php");
+            break;      
+        case"product":
+            require("controller/c_product.php");
+            break;
+        case"login":
+            require("controller/c_login.php");
+            break;
+            case"info":
+            require("controller/c_info.php");
+            break;  
+            case"admin_blog":
+            require("controller/c_admin_blog.php");
+            break;               
+        default :
+            require("controller/c_index.php");
+    }
+}
+?>

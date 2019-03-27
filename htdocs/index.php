@@ -10,6 +10,9 @@ else
     {   case "productDetail":
             require("controller/c_productDetail.php");
             break;
+        case"test":
+            require("controller/c_test.php");
+            break;
         case"contact":
             require("controller/c_contact.php");
             break;

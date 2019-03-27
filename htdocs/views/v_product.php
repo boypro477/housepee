@@ -1,139 +1,111 @@
 <?php
 require("v_header.php");
 ?>
-<!-- Page Content -->
-<div class="container">
-
-<!-- Page Heading/Breadcrumbs -->
-<h1 class="mt-4 mb-3">Tìm phòng
-  <small>Cho thuê</small>
-</h1>
-
-<ol class="breadcrumb">
-  <li class="breadcrumb-item">
-    <a href="index.html">Home</a>
-  </li>
-  <li class="breadcrumb-item active">Portfolio 4</li>
-</ol>
-
+<link href="./css/room.css" rel="stylesheet" type="text/css">
+<!-- Start content product -->
+<div class="Content">
 <div class="row">
-  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-    <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-      <div class="card-body">
-        <h4 class="card-title">
-          <a href="#">Project One</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-      </div>
+<!-- start roomlist -->
+<div class="room-list">
+<div class="col-md-12">
+    <div class="block-room-item-title">
+        <a href="?page=test">Cho
+            thuê sàn văn phòng tại 86 lê trọng tấn thanh xuân hà nội giá ưu đãi</a>
     </div>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-    <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-      <div class="card-body">
-        <h4 class="card-title">
-          <a href="#">Project Two</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-    <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-      <div class="card-body">
-        <h4 class="card-title">
-          <a href="#">Project Three</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-    <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-      <div class="card-body">
-        <h4 class="card-title">
-          <a href="#">Project Four</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-    <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-      <div class="card-body">
-        <h4 class="card-title">
-          <a href="#">Project Five</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-    <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-      <div class="card-body">
-        <h4 class="card-title">
-          <a href="#">Project Six</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-    <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-      <div class="card-body">
-        <h4 class="card-title">
-          <a href="#">Project Seven</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-    <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-      <div class="card-body">
-        <h4 class="card-title">
-          <a href="#">Project Eight</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.</p>
-      </div>
-    </div>
-  </div>
-</div>
+    <div class="row">
+    <div class="col-md-3 room-item-thumbnail">
 
-<!-- Pagination -->
-<ul class="pagination justify-content-center">
-  <li class="page-item">
-    <a class="page-link" href="#" aria-label="Previous">
-      <span aria-hidden="true">&laquo;</span>
-      <span class="sr-only">Previous</span>
-    </a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="#">1</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="#">2</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="#">3</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="#" aria-label="Next">
-      <span aria-hidden="true">&raquo;</span>
-      <span class="sr-only">Next</span>
-    </a>
-  </li>
-</ul>
+        <img id="a1" class="img-fluid"
+            src="http://media.phongtot.vn/xc5tx4cj/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai-thumb-kqgto.jpg"
+            alt="">
 
+    </div>
+    <div class="col-md-9 room-item-i">
+        <div class="block-room-item-address">
+            <span>Địa chỉ: </span>
+            <a>86 Lê Trọng Tấn
+                Lê Trọng Tấn - Khương Mai - Thanh Xuân - Hà Nội </a>
+        </div>
+        <div class="block-room-item-info">
+            <div class="pull-left">
+                <span>Diện tích: </span><a>47m2</a>
+            </div>
+            <div class="pull-right item-info-date">
+                <a>
+                    3 ngày trước </a>
+            </div>
+            <div class="item-info-vs">
+                <span>Vệ sinh: </span><a>chưa rõ</a>
+            </div>
+        </div>
+        <div class="block-room-item-price">
+            <span>Giá cả: </span><a>15,000,000 Đ/tháng</a>
+        </div>
+        <div class="block-room-item-btn">
+            <a class="btn btn-room-detail"
+                href="http://phongtot.vn/van-phong/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai">Xem
+                chi tiết</a>
+            <a class="btn btn-room-save"
+                _url="http://phongtot.vn/luu-tin-ajax/van-phong/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai"
+                href="http://phongtot.vn/luu-tin/van-phong/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai">Lưu
+                tin</a>
+        </div>
+    </div>
+    <!-- <div class="clearfix"></div> -->
+    </div>
 </div>
-<!-- /.container -->
+<div class="col-md-12">
+    <div class="block-room-item-title">
+        <a href="http://phongtot.vn/van-phong/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai">Cho
+            thuê sàn văn phòng tại 86 lê trọng tấn thanh xuân hà nội giá ưu đãi</a>
+    </div>
+    <div class="row">
+    <div class="col-md-3 room-item-thumbnail">
+
+        <img id="a1" class="img-fluid"
+            src="http://media.phongtot.vn/xc5tx4cj/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai-thumb-kqgto.jpg"
+            alt="">
+
+    </div>
+    <div class="col-md-9 room-item-i">
+        <div class="block-room-item-address">
+            <span>Địa chỉ: </span>
+            <a>86 Lê Trọng Tấn
+                Lê Trọng Tấn - Khương Mai - Thanh Xuân - Hà Nội </a>
+        </div>
+        <div class="block-room-item-info">
+            <div class="pull-left">
+                <span>Diện tích: </span><a>47m2</a>
+            </div>
+            <div class="pull-right item-info-date">
+            <span>Thời gian đăng: </span>   
+            <a>3 ngày trước </a>
+            </div>
+            <div class="item-info-vs">
+                <span>Vệ sinh: </span><a>chưa rõ</a>
+            </div>
+        </div>
+        <div class="block-room-item-price">
+            <span>Giá cả: </span><a>15,000,000 Đ/tháng</a>
+        </div>
+        <div class="block-room-item-btn">
+            <a class="btn btn-light btn-room-detail"
+                href="http://phongtot.vn/van-phong/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai">Xem
+                chi tiết</a>
+            <a class="btn btn-light btn-room-save"
+                _url="http://phongtot.vn/luu-tin-ajax/van-phong/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai"
+                href="http://phongtot.vn/luu-tin/van-phong/cho-thue-san-van-phong-tai-86-le-trong-tan-thanh-xuan-ha-noi-gia-uu-dai">Lưu
+                tin</a>
+        </div>
+    </div>
+    <!-- <div class="clearfix"></div> -->
+    </div>
+</div>
+</div>
+</div>
+<!-- End roomlist -->
+</div>
+<!-- End content product -->
 <?php
 require("v_footer.php");
 ?>
